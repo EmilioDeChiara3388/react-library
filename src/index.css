@@ -11,9 +11,31 @@ header {
     background-color: black;
     color: white;
     padding: 1rem 2rem;
+    margin-bottom: 2rem;
+
+    nav {
+
+        a {
+            text-decoration: none;
+            color: white;
+            margin: 0 0.5rem;
+
+            &.active {
+                text-decoration: underline;
+                color: aqua;
+            }
+        }
+
+
+    }
 }
 
-a {
-    text-decoration: none;
-    color: white;
+main {
+    height: 500px;
+}
+
+.container,
+footer {
+    width: 80%;
+    margin: auto;
 }
