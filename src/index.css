@@ -32,6 +32,10 @@ header {
 
 main {
     height: 500px;
+
+    h1 {
+        margin-bottom: 1.5rem;
+    }
 }
 
 .container,
